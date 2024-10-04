@@ -1,0 +1,6 @@
+[submodule "CC-backend"]
+	path = CC-backend
+	url = https://github.com/rafadgvc/CC-backend.git
+[submodule "CC-frontend"]
+	path = CC-frontend
+	url = https://github.com/rafadgvc/CC-frontend.git
