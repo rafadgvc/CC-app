@@ -15,7 +15,8 @@ Si entramos en el run, veremos algunos detalles más, como el código de error o
 ![img.png](badTestsActionExtended.png)
 
 ## Pytest
-Se ha usado como biblioteca de pruebas Pytest, un módulo de Python que permite hacer aserciones de funciones de código de una aplicación.
+Se ha usado como biblioteca de pruebas Pytest, porque es muy utilizado a día de hoy y, personalmente, lo he usado en otros 
+proyectos. Pytest es un módulo de Python que permite hacer aserciones de funciones de código de una aplicación.
 Además, permite establecer un grupo de parámetros predeterminados llamados `fixture`, para, por ejemplo, simular datos de entrada, 
 comprobar datos de salida o incluso realizar una función antes de la ejecución de algunos tests. En el caso de este proyecto, 
 las fixtures se describen en el archivo `conftest.py`, junto con otras funciones necesarias para 
@@ -24,7 +25,7 @@ generar el entorno. Un ejemplo sería el siguiente:
 ![userFixture.png](userFixture.png)
 
 En esta `fixture` se genera un usuario con el email `sinapsido@gmail.com"`, el nombre `Sinápsido Dicinodonte` y la contraseña 
-`P374l D4nC3`, y lo inserta en la base de datos. 
+`P374l D4nC3`, y lo inserta en la base de datos.
 
 ## Tests realizados
 Para garantizar la calidad y estabilidad del código en un entorno de desarrollo ágil, 
